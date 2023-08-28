@@ -1,0 +1,79 @@
+
+.page-container{
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+
+   
+
+}
+
+.bg-circle{
+    position: absolute;
+    width: 634px;
+    height: 634px;
+    flex-shrink: 0;
+    border-radius: 634px;
+    filter: blur(500px);
+    z-index: 5;
+
+    &--green1{
+
+        
+        background: #52BDAA;
+        
+        top: -280px;
+        left: -317px;
+        
+    }
+    &--green2{
+        
+        background: #52BDAA;
+        top: 270px;
+        right: -317px;
+    }
+    &--cream1{
+        background: #FFD6D6;
+        top: -364px;
+        right: -225px;
+
+    }
+    &--cream2{
+        background: #FFD6D6;
+        top: 219px;
+        left: 430px;
+
+    }
+    &--cream3{
+        background: #FFD6D6;
+        top: 441px;
+        left: 194px;
+
+    }
+
+    &--green3{
+        
+        background: #52BDAA;
+        top: 1543px;
+        right: -317px;
+    }
+    &--green4{
+        
+        background: #6BC2A1;;
+        top: 146px;
+        left: 50%;
+
+        transform: translateX(-50%);
+        filter: none;
+    }
+}
+
+.features-benefits-plans-section{
+
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    
+
+    
+}

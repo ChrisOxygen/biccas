@@ -1,0 +1,93 @@
+
+.hero-section{
+    display: flex;
+    z-index: 10;
+    gap: 35px;
+    align-items: start;
+    margin-top: 130px;
+}
+
+.hero-cta{
+    display: flex;
+    z-index: 10;
+    flex-direction: column;
+
+    &__heading{
+        
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 90px;
+
+        position: relative;
+
+        &::after{
+            position: absolute;
+            content: url('/img/hcta-after.svg');
+            left: 0;
+            bottom: -30px;
+            width: 479px;
+            height: 26px;
+
+
+        }
+        
+    }
+    &__desc{
+
+        width: 461px;
+        color: #000;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+
+        margin-bottom: 50px;
+        margin-top: 106px;
+
+    }
+}
+
+.hero-cta__buttons{
+    display:  flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.cta-btn{
+    @extend %unlink;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    &--btn1{
+        padding: 20px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 40px;
+        background: #54BD95;
+        color: #fff;
+
+    }
+
+    &--btn2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+
+        i{
+            font-size: 40px;
+        }
+    }
+}
+
+
+.hero-img{
+    z-index: 10;
+    margin-right: -111.68px;
+}

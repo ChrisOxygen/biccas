@@ -1,0 +1,32 @@
+
+
+.social-proof{
+
+    margin: 130px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    align-items: center;
+    justify-content: center;
+
+    &__title{
+
+        color: $textBlack;
+        text-align: center;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    &__logos{
+
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}

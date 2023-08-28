@@ -1,0 +1,159 @@
+
+.support-section{
+    background: #F9F8FE;
+    padding: 60px 0;
+
+}
+
+.support-container{
+    display: flex;
+    // gap: 50px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.title-desc-ratings{
+
+    width: 644px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.title-desc-ratings{
+
+    &__title{
+        color: $textBlack;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+    }
+    &__desc{
+
+        color: #A6A6A6;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        margin-top: 30px;
+        margin-bottom: 73px;
+
+    }
+    &__ratings{
+        display: flex;
+        gap: 80px;
+        align-items: start;
+    }
+}
+
+.rating{
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+
+    &__stars{
+
+        display: flex;
+        gap: 1px;
+        align-items: center;
+        justify-content: center;
+
+        .bxs-star{
+            width: 26px;
+            height: 26px;
+            color: #FFC728;
+        }
+
+        .bxs-star-half{
+            width: 26px;
+            height: 26px;
+            color: #FFC728;
+        }
+        
+    }
+    &__desc{
+        color: #191A15;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+    &__author{
+
+        color: #A6A6A6;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+}
+
+.support-list{
+
+    width: 509px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+
+.icon-box{
+    display: flex;
+    gap: 21px;
+    align-items: start;
+    justify-content: space-between;
+
+    &__icon{
+
+        width: 60px;
+        height: 60px;
+        background: #FFF;
+        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #54BD95;
+        flex-shrink: 0;
+        
+    }
+    &__title-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+
+    }
+    &__title{
+
+        color: #191A15;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+    &__desc{
+
+        color: #A6A6A6;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+
+    }
+}
+
+
+
